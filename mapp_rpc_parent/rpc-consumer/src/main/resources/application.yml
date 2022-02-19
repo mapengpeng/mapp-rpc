@@ -1,0 +1,13 @@
+﻿server:
+  port: 8185
+  servlet:
+    context-path: /consumer
+
+logging:
+  level:
+    com: debug
+
+rpc:
+  register: zk
+  register-address: 192.168.110.133:2181
+  comsumer-enable: true

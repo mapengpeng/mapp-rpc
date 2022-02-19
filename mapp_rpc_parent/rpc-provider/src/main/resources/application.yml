@@ -1,0 +1,15 @@
+﻿server:
+  port: 8182
+  servlet:
+    context-path: /provider
+logging:
+  level:
+    com: debug
+
+
+rpc:
+  provider-enable: true
+  server-address: localhost:7000
+  register: zk
+  register-address: 192.168.110.133:2181
+
