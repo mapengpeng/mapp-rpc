@@ -1,5 +1,6 @@
 # mapp-rpc
-基于netty实现的rpc框架，支持注册中心，负载均衡，springboot-starter方式自动化集成。可以当做了解rpc实现原理的例子
+基于netty实现的rpc框架，包含了zookeeper实现的注册中心，内置负载均衡，springboot-starter方式自动化集成。使用方式就像dubbo一样。
+代码量少，注释完善，可以当做了解rpc实现原理的例子。
 
 # 使用方式
 #### 声明一个服务 使用@RpcService注解声明一个服务
